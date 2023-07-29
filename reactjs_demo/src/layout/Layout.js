@@ -11,12 +11,11 @@ export function Layout(){
     const element =
     <>    
     <Container fluid="md">
-      <Row>        
-        <Col ><Header /></Col>
-      </Row>
+        <Header Row={Row} />
+     
       <Row>
-        <Col sm ={4}><Leftbar /></Col>
-        <Col sm={8}><Middle /></Col>         
+        <Col sm ={2}><Leftbar /></Col>
+        <Col sm={10}><Middle /></Col>         
       </Row>
       <Row>        
         <Col ><Footer /></Col>

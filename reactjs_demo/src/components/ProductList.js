@@ -1,19 +1,19 @@
-import { ProductListItem } from "./ProductListItem";
-import {Card,Button} from "react-bootstrap"
+import { ProductListItem } from "./ProductListItem"; 
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 export function ProductList(props){   
         
     const element =
     <>    
-        {
+        <Row xs={1} md={3} className="g-4">
+         {
             props.carList.map((car)=>
-                <div key={car.id} className="col-md-3 pb-4">
+                 <Col  key={car.id}>
                     <ProductListItem carList={car} />
-                </div>
+                </Col>
             )
         }
-        <div className="row">
-            
-        </div>
+        </Row>
     </>
     return element;
 }

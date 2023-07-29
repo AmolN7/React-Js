@@ -1,14 +1,14 @@
 import { ProductList } from "./ProductList";
 import { carList } from "../data/data";
-import {Card,Button, Container} from "react-bootstrap"
+//import {Card,Button, Container} from "react-bootstrap"
 export function Product() {
 
     const element = 
-    <>
-        <Container>
+    
+        <div className="container">
         <ProductList carList={carList} />
-        </Container>
+        </div>
        
-    </>
+    
     return element;
 }

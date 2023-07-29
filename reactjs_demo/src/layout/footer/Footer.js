@@ -1,7 +1,8 @@
 export function Footer() {
     const element = 
     <>
-    <h1>This is footer area</h1>
+    <hr/>
+    <div className="text-center ">Copyright 2023 All rights reserved</div>
     </>
 
     return element;
