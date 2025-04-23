@@ -26,7 +26,7 @@ This project created for learn basic concepts of react js
     #Run unit test
     $ npm test
 
-    # ( Remove this tool and copies build depemdencies, configurain files and scripts into the app directory. if you do this you can't go back!)
+    # ( Remove this tool and copies build depemdencies, configuration files and scripts into the app directory. if you do this you can't go back!)
     $ npm eject
 
 - Install bootstrap for React
